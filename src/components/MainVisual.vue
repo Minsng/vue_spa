@@ -21,7 +21,7 @@
 <style>
 
 .box{
-  padding-top: 95px;
+  padding-top: 91px;
   height: 800px;
 }
 .swiper {
