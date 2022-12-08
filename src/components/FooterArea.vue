@@ -1,5 +1,3 @@
 <template>
-  <header>
-      <h1>푸터</h1>
-  </header>
+  <p>푸터</p>
 </template>

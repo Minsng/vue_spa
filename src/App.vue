@@ -1,8 +1,7 @@
 <template>
-  <div id="app">    
-      <HeaderArea />
-      <MainVisual />
-      <ContentArea />
+  <div id="app">        
+      <HeaderArea />                
+      <router-view></router-view>
       <FooterArea />
   </div>
 </template>
@@ -32,8 +31,6 @@
 </style>
 <script>
 import HeaderArea from './components/HeaderArea'
-import MainVisual from './components/MainVisual'
-import ContentArea from './components/ContentArea'
 import FooterArea from './components/FooterArea'
 
 
@@ -41,8 +38,6 @@ export default {
   name: 'app',
   components: {
     HeaderArea,
-    MainVisual,
-    ContentArea,
     FooterArea
   },
   data() {
