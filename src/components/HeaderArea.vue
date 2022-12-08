@@ -20,11 +20,11 @@
     background: url(../assets/vue.gif); width: 211px; height: 55px;
     text-indent: -9999px; float: left; margin-left: 10%;
   }
-  header nav ul {overflow: hidden; margin-left: 70%;}
-  header nav ul li {float: left; margin-left: 30px; font-weight: 700; line-height: 55px; height: 55px;}
+  header nav ul {overflow: hidden; margin-left: 65%;}
+  header nav ul li {float: left; margin-left: 55px; font-weight: 700; line-height: 55px; height: 55px;}
   header nav ul li h3 {font-size: 20px; transition: all .3s;}
   header nav ul li:hover h3 {      
-      color: #20407b; font-weight: 700;
+      color: #017eb9; font-weight: 700;
     }
   .hidden{
     display: block;
