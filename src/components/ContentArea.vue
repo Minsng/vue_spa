@@ -32,13 +32,41 @@
               </router-link>
             </li>
             <li>
-
+              <dl>
+                <dt>
+                  <div><img src="../assets/guideTitBg1.gif" /></div>
+                  <h4>이용시간</h4>
+                </dt>
+                <dd>&middot; 서울도서관은 도서관 자료 열람을 원하는 누구나 이용이 가능합니다.</dd>
+                <dd>&middot; 단, 대출/예약/보존서고 이용 등 일부 서비스는 대출증을 발급받은 회원만 이용이 가능합니다.</dd>
+                <dt>
+                  <div><img src="../assets/guideTitBg1.gif" /></div>
+                  <h4>휴관일 안내</h4>
+                </dt>
+                <dd>&middot; 매주 월요일</dd>
+                <dd>&middot; 일요일을 제외한 법정공휴일 및 국가가 정한 임시 휴일</dd>
+                <dd>&middot; 기타 관장이 필요하다고 인정하는 날 미리 공지 후 휴관</dd>
+                <dt>
+                  <div><img src="../assets/guideTitBg1.gif" /></div>
+                  <h4>12월 휴관일</h4>
+                </dt>
+                <dd>&middot; 5일 월요일</dd>
+                <dd>&middot; 12일 월요일</dd>
+                <dd>&middot; 19일 월요일</dd>
+                <dd>&middot; 25일 성탄절</dd>
+                <dd>&middot; 26일 월요일</dd>
+              </dl>
+              <div class="link"><router-link to="/sub2"><h4>더 알아보기</h4></router-link></div>
             </li>
           </ul>
         </section>
         <section class="section3">
-          <h3>도서 정보</h3>
-      
+          <img src="../assets/bookinfo.png" alt="도서정보">
+          <div>
+            <h3>도서 정보</h3>
+            <p>서울도서관에 새로 들어온 도서정보를 알려드립니다.</p>
+            <div class="link"><router-link to="/sub3"><h4>더 알아보기</h4></router-link></div>
+          </div>
         </section>
       </article>
     </div>
@@ -58,11 +86,47 @@ section h3 {text-align: center; font-size: 38px;}
   gap: 30px;
   }
 .section1 ul li {overflow: hidden;}
-.section1 ul li img {width: 100%; transition: all .3s;}
-.section1 ul li img:hover {transform: scale(1.1);}
+.section1 ul li img {width: 100%; transition: all .5s; transform: scale(1.2);}
+.section1 ul li img:hover {transform: scale(1);}
 .section1 .intro2 {display: flex; flex-direction: row;}
 
+.section2 > ul {
+  display:flex;
+  flex-direction: row;
+  margin: 60px 0 0;
+  }
+.section2 ul li {overflow: hidden;}
+.section2 ul li img {transition: all .3s;}
+.section2 ul li img:hover {transform: scale(1.1);}
+.section2 ul li dl {padding: 40px 30px;}
+.section2 ul li dl dt {margin: 50px 0 10px;}
+.section2 ul li dl dt div {float: left; width: 20px; height: 20px;}
+.section2 ul li dl dt div img {width: 100%;}
+.section2 ul li dl dt h4 {font-size: 20px; height: 20px; line-height: 20px; padding-left: 30px;}
+.section2 ul li dl dd {margin: 10px 0 0 10px;}
+.link {
+  position: relative; left: 50%; transform: translateX(-60px);
+  display: block; text-align: center; width: 120px; height: 40px;
+  background: #017eb9; line-height: 40px;
+  border: solid 1px #017eb9; box-sizing: border-box; border-radius: 15px;
+  transition: all .5s;
+}
+.link a {color: #fff;}
+.link a h4 {font-weight: 500;}
+.link:hover {background: #fff;}
+.link:hover a {color: #017eb9;}
 
+
+.section3 {position: relative;}
+.section3 img {transform: translateX(-240px);}
+.section3 > img {position: relative;}
+.section3 > div {
+  position: absolute; left: 0; top: 0;
+  padding: 50px 0 0 200px;
+  }
+.section3 > div h3 {margin: 10px 0 20px;}
+.section3 > div p {margin: 40px 0; font-size: 20px;}
+.section3 > div .link {}
 
 </style>
 <script src="https://kit.fontawesome.com/d488d1cfdc.js" crossorigin="anonymous"></script>
