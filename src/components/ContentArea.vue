@@ -35,7 +35,7 @@
               <dl>
                 <dt>
                   <div><img src="../assets/guideTitBg1.gif" /></div>
-                  <h4>이용시간</h4>
+                  <h4>이용대상</h4>
                 </dt>
                 <dd>&middot; 서울도서관은 도서관 자료 열람을 원하는 누구나 이용이 가능합니다.</dd>
                 <dd>&middot; 단, 대출/예약/보존서고 이용 등 일부 서비스는 대출증을 발급받은 회원만 이용이 가능합니다.</dd>
@@ -98,7 +98,7 @@ section h3 {text-align: center; font-size: 38px;}
 .section2 ul li {overflow: hidden;}
 .section2 ul li img {transition: all .5s; transform: scale(1.2);}
 .section2 ul li img:hover {transform: scale(1);}
-.section2 ul li dl {padding: 40px 30px;}
+.section2 ul li dl {padding: 40px 10px 40px 60px;}
 .section2 ul li dl dt {margin: 50px 0 10px;}
 .section2 ul li dl dt div {float: left; width: 20px; height: 20px;}
 .section2 ul li dl dt div img {width: 100%;}
