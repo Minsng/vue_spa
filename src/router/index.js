@@ -13,11 +13,10 @@ export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
-    { path: '/', component: maincontent},
-    { path: '/main', component: maincontent},
-    { path: '/sub1', component: sub1content},
-    { path: '/sub2', component: sub2content},
-    { path: '/sub3', component: sub3content}
+    { path: '/vue/', component: maincontent},
+    { path: '/vue/sub1', component: sub1content},
+    { path: '/vue/sub2', component: sub2content},
+    { path: '/vue/sub3', component: sub3content}
   ]
 })
 

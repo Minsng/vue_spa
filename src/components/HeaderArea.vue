@@ -1,12 +1,12 @@
 <template>
   <header>
-      <router-link to="/"><h1>서울도서관 로고</h1></router-link>
+      <router-link to="/vue/"><h1>서울도서관 로고</h1></router-link>
       <nav>
         <ul>
           <h2 class="hidden">네비게이션영역</h2>
-          <li><router-link to="/sub1"><h3>도서관 소개</h3></router-link></li>
-          <li><router-link to="/sub2"><h3>이용 안내</h3></router-link></li>
-          <li><router-link to="/sub3"><h3>도서 정보</h3></router-link></li>
+          <li><router-link to="/vue/sub1"><h3>도서관 소개</h3></router-link></li>
+          <li><router-link to="/vue/sub2"><h3>이용 안내</h3></router-link></li>
+          <li><router-link to="/vue/sub3"><h3>도서 정보</h3></router-link></li>
         </ul>
       </nav>
   </header>

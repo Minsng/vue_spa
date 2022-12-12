@@ -10,9 +10,9 @@
             <p><span>서울의 대표도서관 서울도서관</span>에 오신 것을 환영합니다.</p>
             <p>서울도서관은 2012년 개관하여 “내 삶을 바꾸는 지식문화도시, 서울”을 구현하기 위하여 서울시민이 언제, 어디서나 편리하게 이용할 수 있는 도서관 서비스를 제공 받을 수 있도록 서울시 도서관 정책을 개발하고 있습니다. 또한 이를 기반으로 서울시에 소재하고 있는 천여 개 도서관과 함께 정보제공, 독서진흥, 평생학습 및 문화 활동 증진을 위한 다양한 서비스를 제공하고 있습니다.</p>
             <ul>
-              <li><router-link to="/sub1"><img src="../assets/index1.jpg" alt="소개이미지"></router-link></li>
-              <li><router-link to="/sub1"><img src="../assets/index2.jpg" alt="소개이미지"></router-link></li>
-              <li><router-link to="/sub1"><img src="../assets/index3.jpg" alt="소개이미지"></router-link></li>
+              <li><router-link to="/vue/sub1"><img src="../assets/index1.jpg" alt="소개이미지"></router-link></li>
+              <li><router-link to="/vue/sub1"><img src="../assets/index2.jpg" alt="소개이미지"></router-link></li>
+              <li><router-link to="/vue/sub1"><img src="../assets/index3.jpg" alt="소개이미지"></router-link></li>
             </ul>
           </div>
           <div class="intro2">
@@ -27,7 +27,7 @@
           <h3>이용안내</h3>
           <ul>
             <li>
-              <router-link to="/sub2">
+              <router-link to="/vue/sub2">
                 <img src="../assets/index4.png" alt="">
               </router-link>
             </li>
@@ -56,7 +56,7 @@
                 <dd>&middot; 25일 성탄절</dd>
                 <dd>&middot; 26일 월요일</dd>
               </dl>
-              <div class="link"><router-link to="/sub2"><h4>더 알아보기</h4></router-link></div>
+              <div class="link"><router-link to="/vue/sub2"><h4>더 알아보기</h4></router-link></div>
             </li>
           </ul>
         </section>
@@ -65,7 +65,7 @@
           <div>
             <h3>도서 정보</h3>
             <p>서울도서관에 새로 들어온 도서정보를 알려드립니다.</p>
-            <div class="link"><router-link to="/sub3"><h4>더 알아보기</h4></router-link></div>
+            <div class="link"><router-link to="/vue/sub3"><h4>더 알아보기</h4></router-link></div>
           </div>
         </section>
       </article>
