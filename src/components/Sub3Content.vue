@@ -44,8 +44,8 @@
 
   .sub3 p {text-align: center; font-size: 20px; margin: 40px 0;}
   .sub3search {font-size: 18px; text-align: right;}
-  .sub3search label {width: 50px ;height: 30px; font-size: 20px; line-height: 20px; padding: 10px; vertical-align: middle;}
-  .sub3search input {background: #f8f8f8; width: 300px; height: 30px; font-size: 20px; padding: 10px;}
+  .sub3search label {width: 50px ; /*height: 30px;*/ font-size: 20px; line-height: 20px; padding: 10px; vertical-align: middle;}
+  .sub3search input {background: #f8f8f8; width: 300px; /*height: 30px;*/ font-size: 20px; padding: 10px;}
   .sub3search button {background: #f8f8f8; width: 50px; height: 50px; font-size: 20px; padding: 10px;}
   .sub3search button:hover {background: #ccc;}
   .searchresult span {font-size: 18px;}

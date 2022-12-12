@@ -13,9 +13,10 @@
 </template>
 <style>
   header {
-    width: 100%; height: 55px; padding: 20px 30px; position: fixed; z-index: 40; background: #fff;
+    width: 100%; /*height: 55px;*/ padding: 20px 30px; position: fixed; z-index: 40; background: #fff;
     box-shadow: 0 2px 10px rgb(0 0 0 / 10%);
   }   
+  .router-link-active {display: block;}
   header h1 {
     background: url(../assets/vue.gif); width: 211px; height: 55px;
     text-indent: -9999px; float: left; margin-left: 10%;
