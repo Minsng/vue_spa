@@ -126,7 +126,6 @@ section h3 {text-align: center; font-size: 38px;}
   }
 .section3 > div h3 {margin: 10px 0 20px;}
 .section3 > div p {margin: 40px 0; font-size: 20px;}
-.section3 > div .link {}
 
 </style>
 <script src="https://kit.fontawesome.com/d488d1cfdc.js" crossorigin="anonymous"></script>
