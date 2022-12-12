@@ -25,7 +25,16 @@
         </section>
         <section class="section2">
           <h3>이용안내</h3>
-          
+          <ul>
+            <li>
+              <router-link to="/sub2">
+                <img src="../assets/index4.png" alt="">
+              </router-link>
+            </li>
+            <li>
+
+            </li>
+          </ul>
         </section>
         <section class="section3">
           <h3>도서 정보</h3>
@@ -56,6 +65,7 @@ section h3 {text-align: center; font-size: 38px;}
 
 
 </style>
+<script src="https://kit.fontawesome.com/d488d1cfdc.js" crossorigin="anonymous"></script>
 <script>
 import MainVisual from './MainVisual'
 export default {

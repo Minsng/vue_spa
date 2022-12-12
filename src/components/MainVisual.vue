@@ -38,6 +38,13 @@
   font-weight: bold;
 }
 .swiper .swiper-slide:nth-of-type(1) {background: url(../assets/visual01.png);}
+.swiper-button-prev {transform: scale(1.3);left: 40px;}
+.swiper-button-next {transform: scale(1.3);right: 40px;}
+.swiper-pagination-bullet {transform: scale(2.5);}
+.swiper-container-horizontal > .swiper-pagination-bullets {bottom: 30px;}
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {margin: 0 20px;}
+:root {--swiper-theme-color: #017eb9}
+:root {--swiper-theme-color: #20407b}
 </style>
 
 <script>
