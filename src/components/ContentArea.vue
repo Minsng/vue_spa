@@ -86,8 +86,8 @@ section h3 {text-align: center; font-size: 38px;}
   gap: 30px;
   }
 .section1 ul li {overflow: hidden;}
-.section1 ul li img {width: 100%; transition: all .5s; transform: scale(1.2);}
-.section1 ul li img:hover {transform: scale(1);}
+.section1 ul li img {width: 100%; transition: all .5s;;}
+.section1 ul li img:hover {transform: scale(1.2);}
 .section1 .intro2 {display: flex; flex-direction: row;}
 
 .section2 > ul {
@@ -96,8 +96,8 @@ section h3 {text-align: center; font-size: 38px;}
   margin: 60px 0 0;
   }
 .section2 ul li {overflow: hidden;}
-.section2 ul li img {transition: all .3s;}
-.section2 ul li img:hover {transform: scale(1.1);}
+.section2 ul li img {transition: all .5s; transform: scale(1.2);}
+.section2 ul li img:hover {transform: scale(1);}
 .section2 ul li dl {padding: 40px 30px;}
 .section2 ul li dl dt {margin: 50px 0 10px;}
 .section2 ul li dl dt div {float: left; width: 20px; height: 20px;}
@@ -122,7 +122,7 @@ section h3 {text-align: center; font-size: 38px;}
 .section3 > img {position: relative;}
 .section3 > div {
   position: absolute; left: 0; top: 0;
-  padding: 50px 0 0 200px;
+  padding: 80px 0 0 200px;
   }
 .section3 > div h3 {margin: 10px 0 20px;}
 .section3 > div p {margin: 40px 0; font-size: 20px;}
